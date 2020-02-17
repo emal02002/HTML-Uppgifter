@@ -1,24 +1,33 @@
-body
-{
-	height:100%;
-	padding-top:30vh;
-	padding-left:20%;
-	padding-right:25%;
+body{
+	width:100vw;
+	height:100vh;
+}
+table {
+width: 100vw;
+height: 100vh;
+border-collapse:collapse;
 }
 
-.rectangle
+h1
 {
-	width: 60vw;
-	height:30vh;
-	background:skyblue;
-	display:block;
+	text-align:center;
+	font-size: 10vw;
 	
 }
-.circle
+
+.red
 {
- height: 30vh;
-  width: 30vw;
-  background-color: yellow;
-  border-radius: 50%;
-  margin:0 auto;
+background-color:red;
+}
+.blue
+{
+background-color:blue;
+}
+.green
+{
+background-color:green;
+}
+.yellow
+{
+background-color:yellow;
 }
