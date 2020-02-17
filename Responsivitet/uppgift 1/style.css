@@ -1,0 +1,24 @@
+body
+{
+	height:100%;
+	padding-top:30vh;
+	padding-left:20%;
+	padding-right:25%;
+}
+
+.rectangle
+{
+	width: 60vw;
+	height:30vh;
+	background:skyblue;
+	display:block;
+	
+}
+.circle
+{
+ height: 30vh;
+  width: 30vw;
+  background-color: yellow;
+  border-radius: 50%;
+  margin:0 auto;
+}
