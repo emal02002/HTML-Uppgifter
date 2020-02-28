@@ -1,0 +1,51 @@
+<!DOCKTYPE HTML>
+
+<html lang="sv">
+<head>
+  <meta charset="utf-8">
+  <title>Forum</title>
+</head>
+
+<body>
+	<form action="/action_page.php" target="_blank">
+	<!--------------    Namnfält   ---------------->
+	<fieldset>
+	<legend>Personuppgifter:</legend>
+	  <label for="Förnamn">Förnamn:</label><br>
+	  <input type="text" id="Förnamn" name="Förnamn"><br>
+	  <label for="Efternamn:">Efternamn:</label><br>
+	  <input type="text" id="Efternamn:" name="Efternamn:">	<br>
+	  
+	  <!--------------    Kön(radioknapp)   ---------------->
+	  <label for="Kön"> Kön:</label><br>
+	  <input type="radio" id="Man" name="gender" value="Man">
+	  <label for="Man"> Man </label><br>
+	  <input type="radio" id="Kvinna" name="gender" value="Kvinna">
+	  <label for="Kvinna">Kvinna</label><br>
+	  <input type="radio" id="annat" name="gender" value="annat">
+	  <label for="annat">annat</label> <br>
+	  </fieldset> <br>
+	  <!--------------   Dropdown meny  ---------------->
+	  <fieldset>
+	  <label for="Lediga tider">Lediga tider:</label><br> 
+	  <input list="tider">
+	  <datalist id ="tider">
+	  <option value="-välj-">
+	  <option value="Måndag 08:00">
+	  <option value=" Måndag 08:30">
+	  <option value=" Måndag 09:00">
+	  <option value=" Måndag 09:30">
+	  <option value=" Måndag 10:00">
+	</datalist> <br><br><br>
+	  <!--------------   Beskrivningbox  ---------------->
+	  <label for="Beskrivning">Beskrivning:</label><br> 
+	  <textarea name="message" rows="5" cols="20">
+	  </textarea> <br>
+	  </fieldset> <br> 
+	  <!--------------   Knappar  ---------------->
+	  <input type="submit" value="Skicka">
+	  <input type="submit" value="Rensa">
+	</form>
+  
+</body>
+</html>
