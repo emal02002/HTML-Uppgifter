@@ -7,7 +7,7 @@
 </head>
 
 <body>
-	<form action="/action_page.php" target="_blank">
+	<form action="./return.html" method="get">
 	<!--------------    Namnfält   ---------------->
 	<fieldset>
 	<legend>Personuppgifter:</legend>
@@ -25,8 +25,17 @@
 	  <input type="radio" id="annat" name="gender" value="annat">
 	  <label for="annat">annat</label> <br>
 	  </fieldset> <br>
-	  <!--------------   Dropdown meny  ---------------->
+	  
 	  <fieldset>
+	  <!--------------   Kryssrutor  ---------------->
+	  <label for="ort"> Välj ort:</label><br>
+	  <input type="checkbox" id="ort1" name="ort1" value="Växjö">
+	  <label for="ort1"> Växjö </label><br>
+	  <input type="checkbox" id="ort2" name="ort2" value="Ljungby">
+	  <label for="ort2"> Ljungby</label><br> <br>
+		
+	  <!--------------   Dropdown meny  ---------------->
+	  
 	  <label for="Lediga tider">Lediga tider:</label><br> 
 	  <input list="tider">
 	  <datalist id ="tider">
@@ -43,7 +52,7 @@
 	  </textarea> <br>
 	  </fieldset> <br> 
 	  <!--------------   Knappar  ---------------->
-	  <input type="submit" value="Skicka">
+	  <input type="submit">
 	  <input type="submit" value="Rensa">
 	</form>
   
